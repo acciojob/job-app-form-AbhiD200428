@@ -1,2 +1,76 @@
 
 /* Your CSS Code here. */
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        form {
+            background: #fff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 450px;
+        }
+        h2 {
+            margin-top: 0;
+            margin-bottom: 20px;
+            color: #333;
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #444;
+        }
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group input[type="number"],
+        .form-group input[type="date"],
+        .form-group input[type="password"],
+        .form-group input[type="url"],
+        .form-group select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .radio-container {
+            margin-bottom: 15px;
+        }
+        .radio-container p {
+            margin: 0 0 5px 0;
+            font-weight: bold;
+            color: #444;
+        }
+        .radio-group {
+            display: inline-block;
+            margin-right: 15px;
+        }
+        .radio-group label {
+            display: inline;
+            font-weight: normal;
+            margin-left: 5px;
+        }
+        button[type="submit"] {
+            width: 100%;
+            padding: 12px;
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        button[type="submit"]:hover {
+            background-color: #004085;
+        }
